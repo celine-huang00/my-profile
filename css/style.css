@@ -1,0 +1,147 @@
+@import url(components/banner.css);
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+  }
+
+/* Custom all container-class as responsive container*/
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 370px) {
+  .container {
+    width: 290px;
+  }
+}
+
+body {
+  font-family: 'Lora',serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none ;
+  font-weight: 300;
+  color: black ;
+}
+
+a:hover {
+  text-underline-position: none ;
+  color: black ;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px
+  color: ;
+}
+
+.btn-light{
+  background-color: rgba(255,255,255,0.7);
+  color: black;
+  padding: 4px 16px;
+  border-radius: 4px;
+}
+
+.btn-black{
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  padding: 4px 16px;
+  border-radius: 4px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height : 300px;
+  width: 300px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.color-blue{
+  color: #5C8199;
+}
+
+.font-lato{
+  font-family: 'lato';
+}
+
+.btn-blue{
+  background-color: #B3D7FE;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: rgba(210,210,210,0.9);
+}
+
+.list-inline i:hover {
+  font-size: 40px;
+  color: black;
+}
+
+#introduction p {
+  margin-bottom :35px;
+}
+
+.card-box{
+  position: fixed;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+}
+
+.card-box a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 0px;
+  background-color: #FFFFFF;
+  border: 1px solid #CBCBCB;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.card-box i{
+  font-size: 20px;
+  color: #2B2B2B;
+}
+
+
